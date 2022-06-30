@@ -4,6 +4,8 @@ High level goal: **Create an application that can be presented to the Yello/Wayu
 
 Technologies: **up to the candidate**.
 
+Expected time: **~2-4 hours**.
+
 ## Challenge
 
 Create a high level view that presents our Jobs to hypothetical students.
