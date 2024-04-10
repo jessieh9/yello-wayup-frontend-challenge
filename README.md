@@ -39,3 +39,10 @@ Please submit this in your own github repository.
 
 - It doesn’t have to be perfect.  Writing code always involves trade-offs and design decisions. The most important thing is your ability to speak about the decisions you have made.
 
+## App
+
+The `app` folder is a built-in [create-react-app](https://create-react-app.dev/) application.
+
+To run it in local just run `npm install` and `npm start` (within the `app` folder).
+
+Using this app is not mandatory, feel free to create your own if you prefer.
