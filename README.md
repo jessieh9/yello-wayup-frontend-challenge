@@ -36,6 +36,7 @@ Every Job follows the shape shown in the following example.
 - Coding Language best practices
 - Maintainability: Is it written in a clean, maintainable way?
 - Show us your work through your commit history
+- * Use of AI: You are expected to be able to showcase, explain and iterate over your code. AI usage is allowed as a programming aide, but **do not simply copy/paste AI-generated code**.
 
 **It doesn’t have to be perfect.  Writing code always involves trade-offs and design decisions. The most important thing is your ability to speak about the decisions you have made.**
 
