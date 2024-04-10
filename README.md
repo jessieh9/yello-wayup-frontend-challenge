@@ -30,14 +30,20 @@ Every Job follows the shape shown in the following example.
 }
 ```
 
+## Evaluation Criteria
+- Completeness: Did you complete the features? Are you able to demonstrate that?
+- Correctness: Does the functionality act in sensible, thought-out ways?
+- Coding Language best practices
+- Maintainability: Is it written in a clean, maintainable way?
+- Show us your work through your commit history
+
+**It doesn’t have to be perfect.  Writing code always involves trade-offs and design decisions. The most important thing is your ability to speak about the decisions you have made.**
+
+
 ## Submission:
 Please submit this in your own github repository.
 1. Fork this github repo to a new repository using the fork button from the top left corner.
 2. Clone this locally: git clone ...
-
-## Considerations that the candidate could take into account
-
-- It doesn’t have to be perfect.  Writing code always involves trade-offs and design decisions. The most important thing is your ability to speak about the decisions you have made.
 
 ## App
 
