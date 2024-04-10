@@ -30,10 +30,12 @@ Every Job follows the shape shown in the following example.
 }
 ```
 
+## Submission:
+Please submit this in your own github repository.
+1. Fork this github repo to a new repository using the fork button from the top left corner.
+2. Clone this locally: git clone ...
+
 ## Considerations that the candidate could take into account
 
-Here are is an handful of areas that the candidate could take into consideration (Optional):
-- Typing
-- Testing
-- Front-end pagination
-- Fallback if the call returns an empty array
+- It doesn’t have to be perfect.  Writing code always involves trade-offs and design decisions. The most important thing is your ability to speak about the decisions you have made.
+
