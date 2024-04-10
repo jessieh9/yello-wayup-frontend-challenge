@@ -2,7 +2,7 @@
 
 High level goal: **Create an application that can be presented to the Yello/Wayup team (30mn)**.
 
-Technologies: **up to the candidate**.
+Technologies: **Javascript/Typescript/React Preferred**.
 
 Expected time: **~2-4 hours**.
 
