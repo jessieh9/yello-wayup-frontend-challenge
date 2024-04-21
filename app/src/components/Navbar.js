@@ -3,51 +3,47 @@ import {
   Box,
   Button,
   Flex,
-  // Link,
-  // Heading,
+  Link,
+  Heading,
   Spacer,
-  // Center,
-  // Image,
-  Popover,
-  PopoverTrigger,
-  useColorModeValue,
+  Center,
+  Stack,
+  Image,
 } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
-// import Page from "../pages/Page";
-
-// import { SignoutButton } from "../components/SignoutButton";
+import logo from "../images/logo.png";
+import "./Navbar.css";
 
 function Navbar() {
-  const linkColor = useColorModeValue("gray.600", "gray.200");
-  const linkHoverColor = useColorModeValue("gray.800", "white");
   const navigate = useNavigate();
 
   return (
     <>
-      <Box top="0" left="0" right="0" zIndex="999" bg="#EEEEE" boxShadow="md">
-        <Flex p={4}>
+      <Box bg="#EEEEE" boxShadow="md">
+        <Flex alignItems="center" justifyContent="center" p={4}>
+          {/* LOGO */}
+          <Image src={logo} width={20} />
           <Spacer />
-          <Popover trigger={"hover"} placement={"bottom-start"}>
-            <PopoverTrigger>
-              <Box
-                as="a"
-                p={2}
-                onClick={() => {
-                  navigate("/page");
-                }}
-                fontSize={"sm"}
-                fontWeight={500}
-                color={linkColor}
-                _hover={{
-                  textDecoration: "none",
-                  color: linkHoverColor,
-                }}
-              >
-                Home
-              </Box>
-            </PopoverTrigger>
-          </Popover>
-        
+
+          {/* NAVIGATION */}
+          <Box
+            id="nav_item"
+            p={2}
+            onClick={() => {
+              navigate("/");
+            }}
+          >
+            Home
+          </Box>
+          <Box
+            id="nav_item"
+            p={2}
+            onClick={() => {
+              navigate("/page");
+            }}
+          >
+            Page
+          </Box>
         </Flex>
       </Box>
     </>
