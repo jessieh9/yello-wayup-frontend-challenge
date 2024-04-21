@@ -4,6 +4,7 @@ import axios from "axios";
 import { Grid, GridItem, Center } from "@chakra-ui/react";
 import JobCard from "../components/JobCard";
 import Navbar from "../components/Navbar";
+import Searchbar from "../components/Searchbar";
 
 function Landing() {
   const [jobs, setJobs] = useState([]);
@@ -23,6 +24,7 @@ function Landing() {
   return (
     <>
       <Navbar />
+      <Searchbar />
       <Center>
         <Grid mt={"10"} templateColumns="repeat(3, 1fr)" gap={6}>
           {jobs.map((job) => (

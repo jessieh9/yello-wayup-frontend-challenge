@@ -1,15 +1,5 @@
 import React from "react";
-import {
-  Box,
-  Button,
-  Flex,
-  Link,
-  Heading,
-  Spacer,
-  Center,
-  Stack,
-  Image,
-} from "@chakra-ui/react";
+import { Box, Flex, Spacer, Image } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import logo from "../images/logo.png";
 import "./Navbar.css";
@@ -43,6 +33,15 @@ function Navbar() {
             }}
           >
             Page
+          </Box>
+          <Box
+            id="nav_item"
+            p={2}
+            onClick={() => {
+              navigate("/page");
+            }}
+          >
+            Saved 
           </Box>
         </Flex>
       </Box>

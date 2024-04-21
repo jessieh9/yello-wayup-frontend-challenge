@@ -1,9 +1,13 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 
-function Page(){
+function Page() {
   return (
-    <div> HIIIIII</div>
-  )
+    <>
+      <Navbar />
+      THis is a demo page
+    </>
+  );
 }
 
 export default Page;
